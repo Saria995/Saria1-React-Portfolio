@@ -1,6 +1,7 @@
 // titled images of six of the developer’s applications with links to both the deployed applications and the corresponding GitHub repository
 
 import React from "react";
+import './project.css';
 
 function Project(props) {
   return (
@@ -12,7 +13,7 @@ function Project(props) {
               <div className="card-image">
                 <figure className="image is-4by3">
                   <a href={project.live} target="_blank" rel="noreferrer">
-                    <img src={process.env.PUBLIC_URL + project.image} alt="Placeholder image" />
+                    <img src={process.env.PUBLIC_URL + '/Images/notetaker1.jpg'} alt="Saria Elchaar"/>
                   </a>
                 </figure>
               </div>

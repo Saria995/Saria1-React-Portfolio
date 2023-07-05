@@ -7,7 +7,7 @@ function About() {
     <div>
       <p className="content is-medium">Analyst and Semi-Full Stack Developer</p>
       <hr />
-      <img className="my-pic" src={process.env.PUBLIC_URL + '/img/Profile_Picture.jpg'} alt="Saria Elchaar"/>
+      <img className="my-pic" src={process.env.PUBLIC_URL + '/Images/Profile_Picture.jpg'} alt="Saria Elchaar"/>
       <p className="content is-italic mt-4">
         I'm Saria, a Full Time Business Analyst and currently studying full stack to enhance my knowledge in the technical field
       </p>

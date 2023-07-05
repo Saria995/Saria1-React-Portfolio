@@ -6,12 +6,15 @@
 import React, { useState } from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 import { validateEmail } from '../utils/helpers';
-require('dotenv').config()
+import './contact.css';
+//import Button from 'react-bootstrap/Button';
+//import Form from 'react-bootstrap/Form';
+//require('dotenv').config()
 
 
 function Contact() {
-  const [state, handleSubmit] = useForm(process.env.REACT_APP_FORM_ID);
-
+  // const [state, handleSubmit] = useForm(process.env.REACT_APP_FORM_ID);
+  const [state, handleSubmit] = useForm('mqkvkzra');
   const [formState, setFormState] = useState({ name: '', email: '', message: '' });
 
   const [errorMessage, setErrorMessage] = useState('');
