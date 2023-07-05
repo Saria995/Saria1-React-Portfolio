@@ -1,0 +1,26 @@
+.content {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
+  hr {
+    margin-bottom: 2rem;
+  }
+  
+  .my-pic {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .content.is-italic {
+    font-style: italic;
+    margin-top: 1rem;
+  }
+  
+  .content:not(.is-italic) {
+    margin-bottom: 1rem;
+  }
+  

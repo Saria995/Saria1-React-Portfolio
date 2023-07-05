@@ -2,6 +2,7 @@
 // a list of the developer’s proficiencies
 
 import React from "react";
+import './resume.css';
 
 function Resume() {
   return (
