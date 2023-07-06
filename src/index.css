@@ -6,7 +6,7 @@ body {
 
 .navbar, .navbar-brand {
   text-align: center;
-  background-color: aliceblue;
+  background-color: rgb(87, 107, 126);
 }
 
 div.navbar-brand {
@@ -36,7 +36,7 @@ main {
 }
 
 footer.footer {
-  background-color: #fff;
+  background-color: #ffffffb6;
 }
 
 @media only screen and (max-width: 1024px) {

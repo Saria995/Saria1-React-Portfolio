@@ -12,13 +12,13 @@ function Footer() {
           .
           <hr />
           <a
-            href="linkdin.com/in/saria-elchaar-903483119"
+            href="https://www.linkedin.com/in/saria-elchaar-903483119"
             target="_blank" rel="noreferrer"
           >
             LinkedIn
           </a>{" "}
           |{" "}{" "}
-          <a href="https://twitter.com/home" target="_blank" rel="noreferrer">
+          <a href="https://twitter.com/SariaE95" target="_blank" rel="noreferrer">
             Profile
           </a>
         </p>

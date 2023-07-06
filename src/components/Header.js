@@ -5,6 +5,7 @@ import About from "./About";
 import Contact from "./Contact";
 import Portfolio from "./Portfolio";
 import Resume from "./Resume";
+import "./header.css";
 
 function Header() {
   const [currentPage, handlePageChange] = useState("About");

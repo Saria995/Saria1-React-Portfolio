@@ -1,0 +1,41 @@
+/* Header.css */
+
+.header-container {
+    padding: 20px;
+  }
+  
+  .navbar {
+    padding: 10px;
+  }
+  
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+  }
+  
+  .content {
+    font-size: 24px;
+  }
+  
+  .navigation-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .main-content {
+    margin-top: 40px;
+  }
+
+  .navbar-item {
+    color: rgb(219, 216, 216);
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-weight: bold;
+  }
+
+  .navbar-item:hover {
+    color: rgb(0, 255, 242); /* Add the desired color for the hover state */
+  }
+
